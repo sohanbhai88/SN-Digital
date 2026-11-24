@@ -8,7 +8,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@1
+        uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.Cloudflare_API_Token }}
           projectName: 'sndigitalbd'
